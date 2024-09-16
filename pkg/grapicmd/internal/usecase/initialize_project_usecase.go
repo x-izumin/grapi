@@ -132,7 +132,7 @@ func (u *initializeProjectUsecase) InstallDeps(rootDir string, cfg InitConfig) e
 				return errors.WithStack(err)
 			}
 		}
-		err := invoke("go", "get", "./...")
+		err := invoke("go", "mod", "tidy")
 		if err != nil {
 			return errors.WithStack(err)
 		}

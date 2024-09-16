@@ -7,7 +7,7 @@ jobs:
 
     strategy:
       matrix:
-        go-version: ['1.11.x', '1.12.x', '1.13.x']
+        go-version: ['1.22.x', '1.23.x']
         test-task: ['test', 'test-e2e']
 
     steps:
@@ -37,17 +37,17 @@ jobs:
 
     - run: make ${{ matrix.test-task }}
       env:
-        COVER: ${{ matrix.go-version == '1.13.x' && matrix.test-task == 'test' }} 
+        COVER: ${{ matrix.go-version == '1.23.x' && matrix.test-task == 'test' }} 
 
     - run: curl -s https://codecov.io/bash | bash -s -- -t $CODECOV_TOKEN
-      if: matrix.go-version == '1.13.x' && matrix.test-task == 'test'
+      if: matrix.go-version == '1.23.x' && matrix.test-task == 'test'
 
   build:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/setup-go@v1
       with:
-        go-version: 1.13
+        go-version: 1.23
 
     - uses: actions/checkout@v1
 
