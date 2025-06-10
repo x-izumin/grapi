@@ -18,6 +18,25 @@
 
 [![asciicast](https://asciinema.org/a/176280.png)](https://asciinema.org/a/176280)
 
+## :warning: Migrate 0.5.x -> 0.6.x :warning:
+
+github.com/**izumin5210**/grapi has been renamed to github.com/**x-izumin**/grapi.
+Additionally, github.com/izumin5210/gex undergoes the same change.
+Nothing other than those has been changed.
+
+<details>
+<summary>:memo: How to migrate</summary>
+
+1. Get the new versions from the new repositories
+    - `go get -u github.com/x-izumin/gex@v0.7.0`
+    - `go get -u github.com/x-izumin/grapi@v0.6.0`
+2. Replace every occurrence of `izumin5210/gex` or `izumin5210/grapi` with `x-izumin/gex` or `x-izumin/grapi` in your codebase.
+    - `gsed -i -e 's|izumin5210/gex|x-izumin/gex|g;s|izumin5210/grapi|x-izumin/grapi|g' $(find . -type f -name '*.go')`
+3. Tidy up
+    - `go mod tidy`
+
+</details>
+
 ## :warning: Migrate 0.4.x -> 0.5.x :warning:
 [grapiserver](https://godoc.org/github.com/izumin5210/grapi/pkg/grapiserver) will not handle os signals from v0.5.x.
 We recommend to use [`appctx.Global()`](https://godoc.org/github.com/srvc/appctx#Global) if you want to handle them.
