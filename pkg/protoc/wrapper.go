@@ -10,9 +10,9 @@ import (
 	"text/template"
 
 	"github.com/izumin5210/execx"
-	"github.com/izumin5210/gex/pkg/tool"
 	"github.com/pkg/errors"
 	"github.com/spf13/afero"
+	"github.com/x-izumin/gex/pkg/tool"
 	"go.uber.org/zap"
 
 	"github.com/x-izumin/grapi/pkg/cli"

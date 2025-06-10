@@ -13,7 +13,6 @@ require (
 	github.com/grpc-ecosystem/grpc-gateway v1.9.0
 	github.com/izumin5210/clig v0.3.1
 	github.com/izumin5210/execx v0.1.0
-	github.com/izumin5210/gex v0.6.0
 	github.com/jinzhu/inflection v0.0.0-20180308033659-04140366298a
 	github.com/onsi/gomega v1.4.2 // indirect
 	github.com/pkg/errors v0.9.1
@@ -26,6 +25,7 @@ require (
 	github.com/spf13/viper v1.4.0
 	github.com/srvc/appctx v0.1.0
 	github.com/tcnksm/go-input v0.0.0-20180404061846-548a7d7a8ee8
+	github.com/x-izumin/gex v0.7.0
 	go.uber.org/zap v1.10.0
 	golang.org/x/crypto v0.0.0-20190820162420-60c769a6c586 // indirect
 	golang.org/x/net v0.0.0-20190827160401-ba9fcec4b297

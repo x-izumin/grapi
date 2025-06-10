@@ -5,7 +5,7 @@ package di
 import (
 	"github.com/google/wire"
 	"github.com/izumin5210/clig/pkg/clib"
-	"github.com/izumin5210/gex/pkg/tool"
+	"github.com/x-izumin/gex/pkg/tool"
 
 	"github.com/x-izumin/grapi/pkg/cli"
 	"github.com/x-izumin/grapi/pkg/grapicmd"
