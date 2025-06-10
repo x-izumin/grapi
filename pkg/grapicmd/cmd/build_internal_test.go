@@ -7,9 +7,9 @@ import (
 
 	"github.com/golang/mock/gomock"
 
-	"github.com/izumin5210/grapi/pkg/cli"
-	"github.com/izumin5210/grapi/pkg/grapicmd"
-	moduletesting "github.com/izumin5210/grapi/pkg/grapicmd/internal/module/testing"
+	"github.com/x-izumin/grapi/pkg/cli"
+	"github.com/x-izumin/grapi/pkg/grapicmd"
+	moduletesting "github.com/x-izumin/grapi/pkg/grapicmd/internal/module/testing"
 )
 
 func TestSplitOptions(t *testing.T) {

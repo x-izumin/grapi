@@ -5,8 +5,8 @@ import (
 	"net"
 	"reflect"
 
-	"github.com/izumin5210/grapi/pkg/grapiserver/internal"
 	"github.com/pkg/errors"
+	"github.com/x-izumin/grapi/pkg/grapiserver/internal"
 	"golang.org/x/sync/errgroup"
 )
 

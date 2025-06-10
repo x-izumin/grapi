@@ -6,8 +6,8 @@
 package gencmd
 
 import (
-	"github.com/izumin5210/grapi/pkg/cli"
-	"github.com/izumin5210/grapi/pkg/grapicmd"
+	"github.com/x-izumin/grapi/pkg/cli"
+	"github.com/x-izumin/grapi/pkg/grapicmd"
 	"github.com/rakyll/statik/fs"
 )
 

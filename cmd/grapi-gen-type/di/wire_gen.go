@@ -6,10 +6,10 @@
 package di
 
 import (
-	"github.com/izumin5210/grapi/pkg/cli"
-	"github.com/izumin5210/grapi/pkg/gencmd"
-	"github.com/izumin5210/grapi/pkg/grapicmd"
-	"github.com/izumin5210/grapi/pkg/protoc"
+	"github.com/x-izumin/grapi/pkg/cli"
+	"github.com/x-izumin/grapi/pkg/gencmd"
+	"github.com/x-izumin/grapi/pkg/grapicmd"
+	"github.com/x-izumin/grapi/pkg/protoc"
 )
 
 // Injectors from wire.go:

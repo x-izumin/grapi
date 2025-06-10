@@ -3,7 +3,7 @@ package main
 import (
 	"github.com/srvc/appctx"
 
-	"github.com/izumin5210/grapi/pkg/grapiserver"
+	"github.com/x-izumin/grapi/pkg/grapiserver"
 )
 
 func run() error {

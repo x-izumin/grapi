@@ -5,10 +5,10 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/srvc/appctx"
 
-	"github.com/izumin5210/grapi/pkg/cli"
-	"github.com/izumin5210/grapi/pkg/grapicmd"
-	"github.com/izumin5210/grapi/pkg/grapicmd/di"
-	"github.com/izumin5210/grapi/pkg/grapicmd/internal/module"
+	"github.com/x-izumin/grapi/pkg/cli"
+	"github.com/x-izumin/grapi/pkg/grapicmd"
+	"github.com/x-izumin/grapi/pkg/grapicmd/di"
+	"github.com/x-izumin/grapi/pkg/grapicmd/internal/module"
 )
 
 func newUserDefinedCommands(ctx *grapicmd.Ctx) (cmds []*cobra.Command) {

@@ -5,8 +5,8 @@ package testing
 import (
 	"github.com/google/wire"
 
-	"github.com/izumin5210/grapi/pkg/cli"
-	"github.com/izumin5210/grapi/pkg/gencmd"
+	"github.com/x-izumin/grapi/pkg/cli"
+	"github.com/x-izumin/grapi/pkg/gencmd"
 )
 
 func NewTestApp(*gencmd.Command, cli.UI) (*gencmd.App, error) {

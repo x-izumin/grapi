@@ -8,8 +8,8 @@ import (
 	"github.com/pkg/errors"
 	"github.com/serenize/snaker"
 
-	"github.com/izumin5210/grapi/pkg/cli"
-	gencmdutil "github.com/izumin5210/grapi/pkg/gencmd/util"
+	"github.com/x-izumin/grapi/pkg/cli"
+	gencmdutil "github.com/x-izumin/grapi/pkg/gencmd/util"
 )
 
 type Builder interface {
@@ -76,7 +76,7 @@ func (b *builderImpl) Build(path string, resName string, methodNames []string) (
 		"google/api/annotations.proto",
 	}
 	goImports := []string{
-		"github.com/izumin5210/grapi/pkg/grapiserver",
+		"github.com/x-izumin/grapi/pkg/grapiserver",
 		"google.golang.org/grpc/codes",
 		"google.golang.org/grpc/status",
 	}

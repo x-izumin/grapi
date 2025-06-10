@@ -7,8 +7,8 @@ import (
 	"time"
 
 	"github.com/grpc-ecosystem/grpc-gateway/runtime"
-	"github.com/izumin5210/grapi/pkg/grapiserver/internal"
 	"github.com/pkg/errors"
+	"github.com/x-izumin/grapi/pkg/grapiserver/internal"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/grpclog"
 )

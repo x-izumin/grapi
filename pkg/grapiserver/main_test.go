@@ -15,9 +15,9 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"google.golang.org/grpc"
 
-	"github.com/izumin5210/grapi/pkg/grapiserver"
-	api_pb "github.com/izumin5210/grapi/pkg/grapiserver/testing/api"
-	"github.com/izumin5210/grapi/pkg/grapiserver/testing/app/server"
+	"github.com/x-izumin/grapi/pkg/grapiserver"
+	api_pb "github.com/x-izumin/grapi/pkg/grapiserver/testing/api"
+	"github.com/x-izumin/grapi/pkg/grapiserver/testing/app/server"
 )
 
 var (

@@ -15,8 +15,8 @@ import (
 	"github.com/spf13/afero"
 	"go.uber.org/zap"
 
-	"github.com/izumin5210/grapi/pkg/cli"
-	"github.com/izumin5210/grapi/pkg/grapicmd/util/fs"
+	"github.com/x-izumin/grapi/pkg/cli"
+	"github.com/x-izumin/grapi/pkg/grapicmd/util/fs"
 )
 
 // Wrapper can execute protoc commands for current project's proto files.

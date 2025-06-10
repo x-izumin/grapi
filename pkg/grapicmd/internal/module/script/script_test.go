@@ -11,7 +11,7 @@ import (
 
 	"github.com/izumin5210/clig/pkg/clib"
 	"github.com/izumin5210/execx"
-	"github.com/izumin5210/grapi/pkg/grapicmd/internal/module"
+	"github.com/x-izumin/grapi/pkg/grapicmd/internal/module"
 )
 
 type testContext struct {

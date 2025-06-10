@@ -1,8 +1,8 @@
 package gencmd
 
 import (
-	"github.com/izumin5210/grapi/pkg/grapicmd"
 	"github.com/pkg/errors"
+	"github.com/x-izumin/grapi/pkg/grapicmd"
 )
 
 func defaultCtx() *Ctx {

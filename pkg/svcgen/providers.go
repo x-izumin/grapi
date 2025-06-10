@@ -3,11 +3,11 @@ package svcgen
 import (
 	"github.com/google/wire"
 
-	"github.com/izumin5210/grapi/pkg/cli"
-	"github.com/izumin5210/grapi/pkg/grapicmd"
-	"github.com/izumin5210/grapi/pkg/protoc"
-	"github.com/izumin5210/grapi/pkg/svcgen/params"
-	_ "github.com/izumin5210/grapi/pkg/svcgen/template"
+	"github.com/x-izumin/grapi/pkg/cli"
+	"github.com/x-izumin/grapi/pkg/grapicmd"
+	"github.com/x-izumin/grapi/pkg/protoc"
+	"github.com/x-izumin/grapi/pkg/svcgen/params"
+	_ "github.com/x-izumin/grapi/pkg/svcgen/template"
 )
 
 func ProvideParamsBuilder(rootDir cli.RootDir, protocCfg *protoc.Config, grapiCfg *grapicmd.Config) params.Builder {

@@ -9,12 +9,12 @@ import (
 	"github.com/spf13/afero"
 
 	"github.com/izumin5210/clig/pkg/clib"
-	"github.com/izumin5210/grapi/cmd/grapi-gen-type/di"
-	"github.com/izumin5210/grapi/pkg/cli"
-	"github.com/izumin5210/grapi/pkg/gencmd"
-	gencmdtesting "github.com/izumin5210/grapi/pkg/gencmd/testing"
-	"github.com/izumin5210/grapi/pkg/grapicmd"
-	"github.com/izumin5210/grapi/pkg/grapicmd/util/fs"
+	"github.com/x-izumin/grapi/cmd/grapi-gen-type/di"
+	"github.com/x-izumin/grapi/pkg/cli"
+	"github.com/x-izumin/grapi/pkg/gencmd"
+	gencmdtesting "github.com/x-izumin/grapi/pkg/gencmd/testing"
+	"github.com/x-izumin/grapi/pkg/grapicmd"
+	"github.com/x-izumin/grapi/pkg/grapicmd/util/fs"
 )
 
 func TestType(t *testing.T) {

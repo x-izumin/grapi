@@ -7,7 +7,7 @@ package moduletesting
 import (
 	context "context"
 	gomock "github.com/golang/mock/gomock"
-	module "github.com/izumin5210/grapi/pkg/grapicmd/internal/module"
+	module "github.com/x-izumin/grapi/pkg/grapicmd/internal/module"
 	reflect "reflect"
 )
 
