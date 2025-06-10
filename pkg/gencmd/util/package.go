@@ -4,10 +4,10 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/izumin5210/grapi/pkg/cli"
-	"github.com/izumin5210/grapi/pkg/grapicmd/util/fs"
 	"github.com/pkg/errors"
 	"github.com/serenize/snaker"
+	"github.com/x-izumin/grapi/pkg/cli"
+	"github.com/x-izumin/grapi/pkg/grapicmd/util/fs"
 )
 
 type ProtoParams struct {

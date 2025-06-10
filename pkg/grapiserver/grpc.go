@@ -8,8 +8,8 @@ import (
 	"google.golang.org/grpc/grpclog"
 	"google.golang.org/grpc/reflection"
 
-	"github.com/izumin5210/grapi/pkg/grapiserver/internal"
 	"github.com/pkg/errors"
+	"github.com/x-izumin/grapi/pkg/grapiserver/internal"
 )
 
 // grpcServer wraps grpc.Server setup process.

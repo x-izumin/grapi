@@ -11,9 +11,9 @@ import (
 	"github.com/izumin5210/clig/pkg/clib"
 	"github.com/izumin5210/execx"
 	"github.com/izumin5210/gex/pkg/tool"
-	"github.com/izumin5210/grapi/pkg/grapicmd"
-	"github.com/izumin5210/grapi/pkg/grapicmd/di"
-	"github.com/izumin5210/grapi/pkg/grapicmd/util/fs"
+	"github.com/x-izumin/grapi/pkg/grapicmd"
+	"github.com/x-izumin/grapi/pkg/grapicmd/di"
+	"github.com/x-izumin/grapi/pkg/grapicmd/util/fs"
 )
 
 func newGenerateCommands(ctx *grapicmd.Ctx) (cmds []*cobra.Command) {

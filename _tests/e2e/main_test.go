@@ -26,7 +26,7 @@ import (
 
 var (
 	grapiCmd = flag.String("grapi", "grapi", "path of grapi command")
-	grapiURL = flag.String("grapi-url", "", "url for replacing github.com/izumin5210/grapi")
+	grapiURL = flag.String("grapi-url", "", "url for replacing github.com/x-izumin/grapi")
 	revision = flag.String("revision", "", "target revision")
 )
 
@@ -315,7 +315,7 @@ func updateServerImpl(t *testing.T, rootPath string) {
 						&ast.ImportSpec{
 							Path: &ast.BasicLit{
 								Kind:  token.STRING,
-								Value: strconv.Quote("github.com/izumin5210/grapi/pkg/grapiserver"),
+								Value: strconv.Quote("github.com/x-izumin/grapi/pkg/grapiserver"),
 							},
 						},
 						&ast.ImportSpec{

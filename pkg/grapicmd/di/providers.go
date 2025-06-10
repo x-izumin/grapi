@@ -9,13 +9,13 @@ import (
 	"github.com/rakyll/statik/fs"
 	"github.com/spf13/afero"
 
-	"github.com/izumin5210/grapi/pkg/cli"
-	"github.com/izumin5210/grapi/pkg/gencmd"
-	"github.com/izumin5210/grapi/pkg/grapicmd"
-	"github.com/izumin5210/grapi/pkg/grapicmd/internal/module"
-	"github.com/izumin5210/grapi/pkg/grapicmd/internal/module/script"
-	"github.com/izumin5210/grapi/pkg/grapicmd/internal/usecase"
-	"github.com/izumin5210/grapi/pkg/protoc"
+	"github.com/x-izumin/grapi/pkg/cli"
+	"github.com/x-izumin/grapi/pkg/gencmd"
+	"github.com/x-izumin/grapi/pkg/grapicmd"
+	"github.com/x-izumin/grapi/pkg/grapicmd/internal/module"
+	"github.com/x-izumin/grapi/pkg/grapicmd/internal/module/script"
+	"github.com/x-izumin/grapi/pkg/grapicmd/internal/usecase"
+	"github.com/x-izumin/grapi/pkg/protoc"
 )
 
 func ProvideScriptLoader(ctx *grapicmd.Ctx, io *clib.IO, exec *execx.Executor) module.ScriptLoader {

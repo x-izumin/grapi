@@ -5,10 +5,10 @@ import (
 	"testing"
 
 	"github.com/bradleyjkemp/cupaloy/v2"
-	"github.com/izumin5210/grapi/pkg/cli"
-	"github.com/izumin5210/grapi/pkg/gencmd"
-	"github.com/izumin5210/grapi/pkg/grapicmd/util/fs"
 	"github.com/spf13/afero"
+	"github.com/x-izumin/grapi/pkg/cli"
+	"github.com/x-izumin/grapi/pkg/gencmd"
+	"github.com/x-izumin/grapi/pkg/grapicmd/util/fs"
 )
 
 type Ctx struct {

@@ -9,7 +9,7 @@ import (
 	"github.com/fatih/color"
 	"github.com/izumin5210/clig/pkg/clib"
 
-	"github.com/izumin5210/grapi/pkg/cli"
+	"github.com/x-izumin/grapi/pkg/cli"
 )
 
 func TestUI(t *testing.T) {

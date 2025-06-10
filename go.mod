@@ -1,4 +1,4 @@
-module github.com/izumin5210/grapi
+module github.com/x-izumin/grapi
 
 go 1.12
 

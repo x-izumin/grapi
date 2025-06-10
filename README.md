@@ -1,9 +1,9 @@
 # ![grapi](./grapi.png)
-[![CI](https://github.com/izumin5210/grapi/workflows/CI/badge.svg)](https://github.com/izumin5210/grapi/actions?workflow=CI)
-[![GoDoc](https://godoc.org/github.com/izumin5210/grapi/pkg/grapiserver?status.svg)](https://godoc.org/github.com/izumin5210/grapi/pkg/grapiserver)
-[![Go Report Card](https://goreportcard.com/badge/github.com/izumin5210/grapi)](https://goreportcard.com/report/github.com/izumin5210/grapi)
-[![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/izumin5210/grapi)](http://github.com/izumin5210/grapi/releases/latest)
-[![license](https://img.shields.io/github/license/izumin5210/grapi.svg)](./LICENSE)
+[![CI](https://github.com/x-izumin/grapi/workflows/CI/badge.svg)](https://github.com/x-izumin/grapi/actions?workflow=CI)
+[![GoDoc](https://godoc.org/github.com/x-izumin/grapi/pkg/grapiserver?status.svg)](https://godoc.org/github.com/x-izumin/grapi/pkg/grapiserver)
+[![Go Report Card](https://goreportcard.com/badge/github.com/x-izumin/grapi)](https://goreportcard.com/report/github.com/x-izumin/grapi)
+[![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/x-izumin/grapi)](http://github.com/x-izumin/grapi/releases/latest)
+[![license](https://img.shields.io/github/license/x-izumin/grapi.svg)](./LICENSE)
 
 :open_mouth: A surprisingly easy API server and generator in gRPC and Go
 
@@ -253,7 +253,7 @@ $ grapi build
     - macOS
         - `brew install izumin5210/tools/grapi`
     - others
-        - `go get github.com/izumin5210/grapi/cmd/grapi`
+        - `go get github.com/x-izumin/grapi/cmd/grapi`
 1. **dep** or **Modules**
     - [dep](https://golang.github.io/dep/)
         - macOS

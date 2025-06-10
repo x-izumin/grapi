@@ -11,8 +11,8 @@ import (
 	"github.com/izumin5210/gex/pkg/tool"
 	"github.com/spf13/afero"
 
-	"github.com/izumin5210/grapi/pkg/cli"
-	"github.com/izumin5210/grapi/pkg/protoc"
+	"github.com/x-izumin/grapi/pkg/cli"
+	"github.com/x-izumin/grapi/pkg/protoc"
 )
 
 func TestWrapper_Exec(t *testing.T) {

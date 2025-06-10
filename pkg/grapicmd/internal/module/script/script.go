@@ -11,7 +11,7 @@ import (
 
 	"github.com/izumin5210/clig/pkg/clib"
 	"github.com/izumin5210/execx"
-	"github.com/izumin5210/grapi/pkg/grapicmd/util/fs"
+	"github.com/x-izumin/grapi/pkg/grapicmd/util/fs"
 )
 
 type script struct {

@@ -12,10 +12,10 @@ import (
 	"github.com/pkg/errors"
 	"github.com/spf13/afero"
 
-	"github.com/izumin5210/grapi/pkg/cli"
-	"github.com/izumin5210/grapi/pkg/gencmd"
-	_ "github.com/izumin5210/grapi/pkg/grapicmd/internal/usecase/template"
-	"github.com/izumin5210/grapi/pkg/grapicmd/util/fs"
+	"github.com/x-izumin/grapi/pkg/cli"
+	"github.com/x-izumin/grapi/pkg/gencmd"
+	_ "github.com/x-izumin/grapi/pkg/grapicmd/internal/usecase/template"
+	"github.com/x-izumin/grapi/pkg/grapicmd/util/fs"
 )
 
 // InitializeProjectUsecase is an interface to create a new grapi project.
@@ -121,12 +121,12 @@ func (u *initializeProjectUsecase) InstallDeps(rootDir string, cfg InitConfig) e
 		}
 	} else {
 		if cfg.GrapiReplacementURL != "" {
-			err := invoke("go", "mod", "edit", "-replace", "github.com/izumin5210/grapi="+cfg.GrapiReplacementURL)
+			err := invoke("go", "mod", "edit", "-replace", "github.com/x-izumin/grapi="+cfg.GrapiReplacementURL)
 			if err != nil {
 				return errors.WithStack(err)
 			}
 		} else if spec := cfg.BuildSpec(); spec != "" {
-			pkg := "github.com/izumin5210/grapi/pkg/grapiserver"
+			pkg := "github.com/x-izumin/grapi/pkg/grapiserver"
 			err := invoke("go", "get", pkg+spec)
 			if err != nil {
 				return errors.WithStack(err)

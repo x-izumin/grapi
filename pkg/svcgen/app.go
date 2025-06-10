@@ -1,9 +1,9 @@
 package svcgen
 
 import (
-	"github.com/izumin5210/grapi/pkg/gencmd"
-	"github.com/izumin5210/grapi/pkg/protoc"
-	"github.com/izumin5210/grapi/pkg/svcgen/params"
+	"github.com/x-izumin/grapi/pkg/gencmd"
+	"github.com/x-izumin/grapi/pkg/protoc"
+	"github.com/x-izumin/grapi/pkg/svcgen/params"
 )
 
 type CreateAppFunc func(*gencmd.Command) (*App, error)

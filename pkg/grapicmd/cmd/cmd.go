@@ -5,7 +5,7 @@ import (
 	"github.com/spf13/cobra"
 
 	"github.com/izumin5210/clig/pkg/clib"
-	"github.com/izumin5210/grapi/pkg/grapicmd"
+	"github.com/x-izumin/grapi/pkg/grapicmd"
 )
 
 // NewGrapiCommand creates a new command object.
