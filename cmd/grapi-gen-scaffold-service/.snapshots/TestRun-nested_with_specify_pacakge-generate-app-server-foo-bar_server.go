@@ -23,3 +23,4 @@ func NewBarServiceServer() BarServiceServer {
 
 type barServiceServerImpl struct {
 }
+

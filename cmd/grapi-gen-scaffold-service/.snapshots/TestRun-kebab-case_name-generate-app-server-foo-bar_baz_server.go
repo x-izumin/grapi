@@ -23,3 +23,4 @@ func NewBarBazServiceServer() BarBazServiceServer {
 
 type barBazServiceServerImpl struct {
 }
+
