@@ -8,8 +8,8 @@ import (
 	"github.com/bradleyjkemp/cupaloy/v2"
 	"github.com/izumin5210/clig/pkg/clib"
 	"github.com/izumin5210/execx"
-	"github.com/izumin5210/gex/pkg/tool"
 	"github.com/spf13/afero"
+	"github.com/x-izumin/gex/pkg/tool"
 
 	"github.com/x-izumin/grapi/pkg/cli"
 	"github.com/x-izumin/grapi/pkg/protoc"
