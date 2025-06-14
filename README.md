@@ -18,7 +18,7 @@
 
 [![asciicast](https://asciinema.org/a/176280.png)](https://asciinema.org/a/176280)
 
-## :warning: Migrate 0.5.x -> 0.6.x :warning:
+## :warning: Migrate 0.5.x -> 0.8.x :warning:
 
 github.com/**izumin5210**/grapi has been renamed to github.com/**x-izumin**/grapi.
 Additionally, github.com/izumin5210/gex undergoes the same change.
