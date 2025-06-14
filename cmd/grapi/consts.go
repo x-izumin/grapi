@@ -2,7 +2,7 @@ package main
 
 const (
 	name    = "grapi"
-	version = "v0.5.0"
+	version = "v0.7.0"
 )
 
 var (
