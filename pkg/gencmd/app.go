@@ -1,12 +1,11 @@
 package gencmd
 
-import "github.com/izumin5210/grapi/pkg/cli"
+import (
+	newGencmd "github.com/x-izumin/grapi/pkg/gencmd"
+)
 
 // CreateAppFunc initializes dependencies.
-type CreateAppFunc func(*Command) (*App, error)
+type CreateAppFunc = newGencmd.CreateAppFunc
 
 // App contains dependencies to execute a generator.
-type App struct {
-	Generator Generator
-	UI        cli.UI
-}
+type App = newGencmd.App

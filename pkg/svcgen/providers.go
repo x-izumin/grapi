@@ -2,25 +2,9 @@ package svcgen
 
 import (
 	"github.com/google/wire"
-
-	"github.com/izumin5210/grapi/pkg/cli"
-	"github.com/izumin5210/grapi/pkg/grapicmd"
-	"github.com/izumin5210/grapi/pkg/protoc"
-	"github.com/izumin5210/grapi/pkg/svcgen/params"
-	_ "github.com/izumin5210/grapi/pkg/svcgen/template"
+	newSvcgen "github.com/x-izumin/grapi/pkg/svcgen"
 )
 
-func ProvideParamsBuilder(rootDir cli.RootDir, protocCfg *protoc.Config, grapiCfg *grapicmd.Config) params.Builder {
-	return params.NewBuilder(
-		rootDir,
-		protocCfg.ProtosDir,
-		protocCfg.OutDir,
-		grapiCfg.Grapi.ServerDir,
-		grapiCfg.Package,
-	)
-}
+var ProvideParamsBuilder = newSvcgen.ProvideParamsBuilder
 
-var Set = wire.NewSet(
-	ProvideParamsBuilder,
-	App{},
-)
+var Set = wire.NewSet(newSvcgen.Set)

@@ -3,8 +3,8 @@ package main
 import (
 	"github.com/spf13/cobra"
 
-	_ "github.com/izumin5210/grapi/cmd/grapi-gen-command/template"
-	"github.com/izumin5210/grapi/pkg/gencmd"
+	_ "github.com/x-izumin/grapi/cmd/grapi-gen-command/template"
+	"github.com/x-izumin/grapi/pkg/gencmd"
 )
 
 func main() {

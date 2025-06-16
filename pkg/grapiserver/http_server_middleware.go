@@ -1,6 +1,8 @@
 package grapiserver
 
-import "net/http"
+import (
+	newGrapiserver "github.com/x-izumin/grapi/pkg/grapiserver"
+)
 
 // HTTPServerMiddleware is an interface of http server middleware
-type HTTPServerMiddleware func(http.Handler) http.Handler
+type HTTPServerMiddleware = newGrapiserver.HTTPServerMiddleware
