@@ -1,3 +1,4 @@
+// Deprecated: use github.com/x-izumin/grapi instead.
 module github.com/izumin5210/grapi
 
 go 1.12
