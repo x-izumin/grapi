@@ -1,22 +1,14 @@
 package gencmd
 
 import (
-	"github.com/izumin5210/grapi/pkg/grapicmd"
+	newGencmd "github.com/x-izumin/grapi/pkg/gencmd"
 )
 
 // Option configures a command context.
-type Option func(*Ctx)
+type Option = newGencmd.Option
 
 // WithGrapiCtx specifies a grapi command context.
-func WithGrapiCtx(gctx *grapicmd.Ctx) Option {
-	return func(ctx *Ctx) {
-		ctx.Ctx = gctx
-	}
-}
+var WithGrapiCtx = newGencmd.WithGrapiCtx
 
 // WithCreateAppFunc specifies a dependencies initializer.
-func WithCreateAppFunc(f CreateAppFunc) Option {
-	return func(ctx *Ctx) {
-		ctx.CreateAppFunc = f
-	}
-}
+var WithCreateAppFunc = newGencmd.WithCreateAppFunc

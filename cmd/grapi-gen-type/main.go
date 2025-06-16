@@ -8,11 +8,11 @@ import (
 	"github.com/serenize/snaker"
 	"github.com/spf13/cobra"
 
-	"github.com/izumin5210/grapi/cmd/grapi-gen-type/di"
-	_ "github.com/izumin5210/grapi/cmd/grapi-gen-type/template"
-	"github.com/izumin5210/grapi/pkg/gencmd"
-	gencmdutil "github.com/izumin5210/grapi/pkg/gencmd/util"
-	"github.com/izumin5210/grapi/pkg/grapicmd"
+	"github.com/x-izumin/grapi/cmd/grapi-gen-type/di"
+	_ "github.com/x-izumin/grapi/cmd/grapi-gen-type/template"
+	"github.com/x-izumin/grapi/pkg/gencmd"
+	gencmdutil "github.com/x-izumin/grapi/pkg/gencmd/util"
+	"github.com/x-izumin/grapi/pkg/grapicmd"
 )
 
 func main() {

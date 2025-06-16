@@ -26,6 +26,7 @@ require (
 	github.com/spf13/viper v1.4.0
 	github.com/srvc/appctx v0.1.0
 	github.com/tcnksm/go-input v0.0.0-20180404061846-548a7d7a8ee8
+	github.com/x-izumin/grapi v0.8.0 // indirect
 	go.uber.org/zap v1.10.0
 	golang.org/x/crypto v0.0.0-20190820162420-60c769a6c586 // indirect
 	golang.org/x/net v0.0.0-20190827160401-ba9fcec4b297

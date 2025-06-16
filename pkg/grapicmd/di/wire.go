@@ -1,40 +1,14 @@
-//+build wireinject
+//go:build wireinject
+// +build wireinject
 
 package di
 
-import (
-	"github.com/google/wire"
-	"github.com/izumin5210/clig/pkg/clib"
-	"github.com/izumin5210/gex/pkg/tool"
+var NewUI = newDi.NewUI
 
-	"github.com/izumin5210/grapi/pkg/cli"
-	"github.com/izumin5210/grapi/pkg/grapicmd"
-	"github.com/izumin5210/grapi/pkg/grapicmd/internal/module"
-	"github.com/izumin5210/grapi/pkg/grapicmd/internal/usecase"
-	"github.com/izumin5210/grapi/pkg/protoc"
-)
+var NewScriptLoader = newDi.NewScriptLoader
 
-func NewUI(*grapicmd.Ctx) cli.UI {
-	wire.Build(Set)
-	return nil
-}
+var NewToolRepository = newDi.NewToolRepository
 
-func NewScriptLoader(*grapicmd.Ctx) module.ScriptLoader {
-	wire.Build(Set)
-	return nil
-}
+var NewProtocWrapper = newDi.NewProtocWrapper
 
-func NewToolRepository(*grapicmd.Ctx) (tool.Repository, error) {
-	wire.Build(Set)
-	return nil, nil
-}
-
-func NewProtocWrapper(*grapicmd.Ctx) (protoc.Wrapper, error) {
-	wire.Build(Set)
-	return nil, nil
-}
-
-func NewInitializeProjectUsecase(*grapicmd.Ctx, clib.Path) (usecase.InitializeProjectUsecase, error) {
-	wire.Build(Set)
-	return nil, nil
-}
+var NewInitializeProjectUsecase = newDi.NewInitializeProjectUsecase

@@ -1,14 +1,9 @@
 package svcgen
 
 import (
-	"github.com/izumin5210/grapi/pkg/gencmd"
-	"github.com/izumin5210/grapi/pkg/protoc"
-	"github.com/izumin5210/grapi/pkg/svcgen/params"
+	newSvcgen "github.com/x-izumin/grapi/pkg/svcgen"
 )
 
-type CreateAppFunc func(*gencmd.Command) (*App, error)
+type CreateAppFunc = newSvcgen.CreateAppFunc
 
-type App struct {
-	ProtocWrapper protoc.Wrapper
-	ParamsBuilder params.Builder
-}
+type App = newSvcgen.App

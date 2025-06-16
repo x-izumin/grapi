@@ -1,14 +1,8 @@
 package grapiserver
 
 import (
-	"context"
-
-	"github.com/grpc-ecosystem/grpc-gateway/runtime"
-	"google.golang.org/grpc"
+	newGrapiserver "github.com/x-izumin/grapi/pkg/grapiserver"
 )
 
 // Server is an interface for representing gRPC server implementations.
-type Server interface {
-	RegisterWithServer(*grpc.Server)
-	RegisterWithHandler(context.Context, *runtime.ServeMux, *grpc.ClientConn) error
-}
+type Server = newGrapiserver.Server
